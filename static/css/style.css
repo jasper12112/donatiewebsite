@@ -60,6 +60,11 @@ html {
     width: 100%;
     height: auto;
 }
+.modal-toggler{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 222, 222);
+}
 /* Navbar */
 .nv-r{
     margin-right: 1rem !important;
