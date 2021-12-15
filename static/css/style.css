@@ -158,6 +158,9 @@ html {
 .footer-text{
     font-size: larger;
 }
+.item-txt{
+    overflow-y: auto;   
+}
 /* Mobile */
 @media (max-width: 1360px)
 {
