@@ -19,14 +19,7 @@ html {
 }
 /* Donate button */
 .donate-button{
-    background-color: #6BA2A5;
-    border-radius: 10px;
-    border: 2px solid #3c7e81;
-    width: 12rem;
-    height: 2.5rem;
-    text-align: center;
-    line-height: 37px;
-    font-size: 20px;
+
 }
 .donate-button-inner{
     color: white;
@@ -222,4 +215,7 @@ html {
     .item-txt{
         font-size: .8rem;
     }
+}
+.select-items div, .select-selected {
+    padding:0px !important;
 }
