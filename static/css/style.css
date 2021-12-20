@@ -16,6 +16,7 @@ html {
 }
 .col-custom{
     flex-direction: column;
+    width: 50%;
 }
 /* Donate button */
 .donate-button{
