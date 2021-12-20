@@ -176,6 +176,13 @@ html {
     top: 0;
     left: 50%;
 }
+.readmorel{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0%;
+}
 .rest{
     height: 50%;
     background-color: rgba(189, 189, 189, 0.822);
