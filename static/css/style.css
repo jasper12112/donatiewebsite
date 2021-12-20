@@ -159,6 +159,9 @@ html {
 /* Mobile */
 @media (max-width: 1360px)
 {
+    .item{
+        width: 73vw;
+    }
     .item-image{
         height: 75%;
     }
