@@ -156,6 +156,34 @@ html {
     overflow-y: auto;
     height: 90%;
 }
+.mobileonly{
+    height: 90%;
+}
+.mobiletext{
+    height: 80%;
+    overflow-y: hidden;
+}
+.modal-toggler{
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+}
+.readmore{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.rest{
+    height: 50%;
+    background-color: rgba(189, 189, 189, 0.822);
+    border-radius:8px;
+}
+.bl{
+    height: 50%;
+}
 /* Mobile */
 @media (max-width: 1360px)
 {
