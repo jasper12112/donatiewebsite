@@ -181,7 +181,7 @@ html {
 }
 .rest{
     height: 2rem;
-    border-radius: 3px 3px 0 0;
+    /* border-radius: 3px 3px 0 0; */
     margin-bottom: 10px;
 }
 .modal-toggler{
@@ -201,7 +201,7 @@ html {
 }
 .modal-toggler{
     font-size: 14px;
-    border-radius: 3px 3px 0 0;
+    /* border-radius: 3px 3px 0 0; */
     /* height: 100%; */
 }
 @media screen and (max-width: 600px){
@@ -210,6 +210,10 @@ html {
     }
     .donate-btn {
         margin: auto !important;
+      }
+      .rest{
+        padding: 2px;
+        border-radius: 3px;
       }
 }
 /* Mobile */
