@@ -201,6 +201,8 @@ html {
 }
 .modal-toggler{
     font-size: 14px;
+    border-radius: 3px 3px 0 0;
+    height: 100%;
 }
 /* Mobile */
 @media (max-width: 1360px)
