@@ -199,6 +199,9 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+.modal-toggler{
+    font-size: 14px;
+}
 /* Mobile */
 @media (max-width: 1360px)
 {
