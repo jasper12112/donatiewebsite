@@ -72,8 +72,12 @@ html {
   font-size: 1.5rem;
 }
 .main-text {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
+  transition: all 1s;
+}
+.main-text.active {
+  font-size: 4rem;
 }
 .ml-auto {
   margin-left: auto;
@@ -280,7 +284,24 @@ html {
   background: #45bbff;
   color: white;
 }
-
+.scrollinto{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all .8s;
+}
+.scrollintoy{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(-100%);
+  transition: all 1s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transform: translateY(0);
+}
 .fa-tumblr {
   background: #2c4762;
   color: white;
@@ -400,7 +421,9 @@ html {
   }
   .main-text {
     font-size: 2rem;
-    font-weight: bold;
+  }
+  .main-text.active {
+    font-size: 3rem;
   }
   .contact-form {
     width: 80%;
