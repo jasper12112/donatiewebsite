@@ -221,6 +221,13 @@ html {
     .breaker-text{
         font-size: 1rem;
     }
+    [id|="donate-btn"] {
+        /* margin-top: 30px !important; */
+    }
+    .widget[data-slug] {
+        max-width: 90vw !important;
+        width: 80vw !important;
+      }
     .item{
         margin-left: auto;
         margin-right: auto;
