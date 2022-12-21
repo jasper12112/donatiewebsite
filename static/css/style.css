@@ -204,6 +204,14 @@ html {
     border-radius: 3px 3px 0 0;
     /* height: 100%; */
 }
+@media screen and (max-width: 600px){
+    [id|="donate-btn"] {
+    display: flex;
+    }
+    .donate-btn {
+        margin: auto !important;
+      }
+}
 /* Mobile */
 @media (max-width: 1360px)
 {
