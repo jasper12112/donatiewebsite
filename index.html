@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/style.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dijksterhuis</title>
   </head>
   <body>
@@ -53,9 +53,11 @@
     <!-- Breaker -->
     <div class="breaker flex">
         <p class="breaker-text" id="check">
-            ''u helpt ons niet alleen door te doneren, <br>
+            ''U helpt ons niet alleen door te doneren, <br>
             Maar ook met delen. <br>
             Middels hiervan krijgen wij een groter bereik.''<br>
+            <br>
+            <a class="bold deel" data-toggle="modal" data-target="#shareitem" href="">Delen!</a>
         </p>
     </div>
     <!-- About -->
@@ -229,6 +231,43 @@
           </div>
         </div>
     </div>
+
+    <div class="modal fade" id="shareitem" tabindex="-1" role="dialog" aria-labelledby="shareitem33" aria-hidden="true">
+      <div class="modal-dialog super-modal" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="shareitem33">Share</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body d-block">
+              <h1 class="item-title text-center mx-auto">Deel deze pagina</h1>
+              <div class="flex justify-center">
+              <a href="https://twitter.com/share?url=https://jasper12112.github.io/donatiewebsite/&text=Doneer hier een helpvia=JasperIdoDonatie" class="fa faa fa-twitter" target="_blank"></a>
+
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://jasper12112.github.io/donatiewebsite/" class="fa faa fa-facebook" target="_blank"></a> 
+            
+              <!-- LinkedIn (url, title, summary, source url) -->
+              <a href="https://www.linkedin.com/shareArticle?url=https://jasper12112.github.io/donatiewebsite/&title=Donatie website&summary=Doneren&source=https://jasper12112.github.io/donatiewebsite/" target="_blank" class="fa faa fa-linkedin">
+              </a>
+
+              <a href="https://wa.me/?text=Doneer%20voor%20een%20waterpomp%20https://jasper12112.github.io/donatiewebsite/%20from%20Forward%20Action" class="fa faa fa-whatsapp" target="_blank">
+              </a>
+
+              <a href="https://www.instagram.com/hr3edits" class="fa faa fa-instagram" target="_blank"></a>
+              
+              <!-- Email (subject, body) -->
+              <a href="mailto:?subject=Donatie&body=Wilt u doneren? https://jasper12112.github.io/donatiewebsite/" class="fa faa fa-google" target="_blank">
+              </a>
+              </div>
+          </div>
+          <div class="modal-footer mx-auto">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Terug</button>
+          </div>
+        </div>
+      </div>
+  </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
