@@ -289,12 +289,15 @@ html {
   filter: blur(5px);
   transform: translateX(-100%);
   transition: all .8s;
+  transition-timing-function: steps(50, jump);
+  /* transition-timing-function: ease-out; */
 }
 .scrollintoy{
   opacity: 0;
   filter: blur(5px);
   transform: translateY(-100%);
-  transition: all 1s;
+  transition: all .6s;
+  transition-timing-function: steps(40, jump);
 }
 .show{
   opacity: 1;
